@@ -4,7 +4,7 @@ export default function MobileFilter(){
     return(
         <>
              <div id="filter-navbar" className="sidebar-wrapper overlay">
-            <a href="#" className="closebtn" onclick="closeSidebar()"><span className="material-icons-outlined"> close
+            <a href="#" className="closebtn" ><span className="material-icons-outlined"> close
                 </span></a>
             <div className="sidebar-ul overlay-content">
                 <NavLink to="/wishlist" className="desktop-list-item">
@@ -21,7 +21,7 @@ export default function MobileFilter(){
                 <section className="price-wrap">
                     <h1>Price</h1>
                     <div className="slider">
-                        ₹500 <input type="range" min="500" max="1000" value="850" className="slider " id="slider-type1" />₹1000
+                        ₹500 <input type="range" min="500" max="1000"  className="slider " id="slider-type1" />₹1000
                      </div>
                 </section>
                 <section className="category-wrap all-filters-wrap">

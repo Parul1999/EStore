@@ -43,13 +43,6 @@
     width: 100%;
 }
 
-#searchBar{
-    padding: 0.4rem;
-    border-radius: 5px;
-    width: 20%;
-    border: none;
-    outline: none;
-}
 .card-col:hover{
     box-shadow: var(--black-color) 4px 7px 9px;
     cursor: pointer;

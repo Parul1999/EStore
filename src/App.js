@@ -6,7 +6,7 @@ import Cart from "./pages/cart/cart";
 import Home from "./pages/home/home";
 import NotFound from "./pages/notfound/404";
 import ProductDetails from "./pages/productdetails/productdetails";
-import ProductListing from "./pages/productlisting/productlisting";
+import Products from "./pages/products/products";
 import Wishlist from "./pages/wishlist/wishlist";
 import Login from "./pages/authentication/login";
 import SignUp from "./pages/authentication/signup";
@@ -22,7 +22,7 @@ function App() {
     <Route path="/" element={<Home/>}/>
     <Route path="/cart" element={<Cart/>}/>
     <Route path="/productdetails/:id" element={<ProductDetails/>}/>
-    <Route path="/products" element={<ProductListing/>}/>
+    <Route path="/products" element={<Products/>}/>
     <Route path="/wishlist" element={<Wishlist/>}/>
     <Route path="*" element={<NotFound/>}/>
     <Route path="/login" element={<Login/>}/>

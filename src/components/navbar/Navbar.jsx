@@ -6,8 +6,7 @@ export default function Navbar(){
         <div className="nav-headings">
         <h1> <Link to="/">Sharky Store</Link></h1>
         </div>
-        <input name="name" type="search" value="Search Products"  id="searchBar" autocomplete="off"
-            onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;"/>
+       
         <ul className="desktop-nav-list">
           <li >
             <NavLink to="/signup"
@@ -29,8 +28,8 @@ export default function Navbar(){
               <span className="material-icons-outlined" > shopping_cart </span></NavLink>
           </li>
         </ul>
-        <ul class="mobile-view hamburger">
-                <span class="material-icons-outlined" onclick="openSidebar()">
+        <ul className="mobile-view hamburger">
+                <span className="material-icons-outlined" >
                     menu
                 </span>
             </ul>
