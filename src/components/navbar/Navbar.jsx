@@ -1,6 +1,8 @@
 import { Link ,NavLink} from 'react-router-dom'
 import '../navbar/navbar.css'
+import HandleModalDisplay  from '../utils/utils';
 export default function Navbar(){
+     const {filterOpen,handleFilter} =HandleModalDisplay();
     return(
         <nav className="desktop-nav navbar sticky">
         <div className="nav-headings">
@@ -29,7 +31,7 @@ export default function Navbar(){
           </li>
         </ul>
         <ul className="mobile-view hamburger">
-                <span className="material-icons-outlined" >
+                <span className="material-icons-outlined" onClick={()=>{handleFilter(filterOpen)}}>
                     menu
                 </span>
             </ul>
